@@ -336,3 +336,178 @@ header {
 }
 
 // header end
+// nav start
+nav {
+    height : 108px;
+    padding: 20px 0;
+
+    div {
+        float: left;
+    }
+
+    .left {
+        width : 200px;
+        height: 68px;
+
+        li {
+            float : left;
+            width : 50px;
+            height: 68px;
+
+            div {
+                margin       : 5px 7px;
+                width        : 36px;
+                height       : 36px;
+                border-radius: 50%;
+
+                &::before {
+                    content    : '';
+                    font-family: 'iconmoon';
+                    font-size  : 26px;
+                    text-align : center;
+                    line-height: 36px;
+                    margin     : 0 5px;
+                    color      : #fff;
+
+                    &:hover {
+                        color: #fff;
+                    }
+
+                }
+            }
+
+            span {
+                display   : block;
+                width     : 50px;
+                font-size : 14px;
+                text-align: center;
+            }
+
+
+            &:nth-child(1) {
+                div {
+                    background-color: #ff5c7c;
+
+                    &::before {
+                        content: '\e902';
+                    }
+                }
+            }
+
+            &:nth-child(2) {
+                div {
+                    background-color: #fcba2a;
+
+                    &::before {
+                        content: '\e982';
+                    }
+                }
+            }
+
+            &:nth-child(3) {
+                div {
+                    background-color: #ff716d;
+
+                    &::before {
+                        content: '\e99d';
+                    }
+                }
+            }
+
+            &:nth-child(4) {
+                div {
+                    background-color: #6dc781;
+
+                    &::before {
+                        content: '\ea56';
+                    }
+                }
+            }
+
+        }
+    }
+
+    .bar {
+        width           : 1px;
+        height          : 46px;
+        background-color: #e7e7e7;
+        margin          : 15px 8px 0;
+    }
+
+    .middle {
+        width : 748px;
+        height: 68px;
+
+        li {
+            float       : left;
+            width       : 61px;
+            height      : 34px;
+            margin-right: 9px;
+
+            &:nth-child(10n+8) {
+                width: 75px;
+            }
+
+            &:nth-child(10n+9) {
+                width: 75px;
+            }
+
+            &:nth-child(10n) {
+                width       : 89px;
+                margin-right: 0px;
+            }
+
+            span {
+                float : left;
+                margin: 7px 0;
+
+                &:nth-child(1) {
+                    font-size: 14px;
+                }
+
+                &:nth-child(2) {
+                    margin-left     : 3px;
+                    margin-top      : 12px;
+                    width           : 30px;
+                    height          : 12px;
+                    text-align      : center;
+                    line-height     : 12px;
+                    background-color: #73c9e5;
+                    color           : #fff;
+                    border-radius   : 2px;
+                }
+            }
+        }
+    }
+
+    .right {
+        width : 218px;
+        height: 68px;
+
+        li {
+            float : left;
+            width : 57px;
+            height: 34px;
+
+            &:nth-child(3n) {
+                width: 90px;
+            }
+
+            svg {
+                width : 25px;
+                height: 34px;
+            }
+
+            span {
+                margin-left: 2px;
+                font-size  : 14px;
+            }
+        }
+    }
+}
+
+
+
+
+
+// nav end

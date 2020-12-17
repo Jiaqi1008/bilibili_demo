@@ -263,3 +263,131 @@ header .logo-wrap .logo {
   background: url(../images/logo.png);
   background-size: 162px 77px;
 }
+nav {
+  height: 108px;
+  padding: 20px 0;
+}
+nav div {
+  float: left;
+}
+nav .left {
+  width: 200px;
+  height: 68px;
+}
+nav .left li {
+  float: left;
+  width: 50px;
+  height: 68px;
+}
+nav .left li div {
+  margin: 5px 7px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+nav .left li div::before {
+  content: '';
+  font-family: 'iconmoon';
+  font-size: 26px;
+  text-align: center;
+  line-height: 36px;
+  margin: 0 5px;
+  color: #fff;
+}
+nav .left li div::before:hover {
+  color: #fff;
+}
+nav .left li span {
+  display: block;
+  width: 50px;
+  font-size: 14px;
+  text-align: center;
+}
+nav .left li:nth-child(1) div {
+  background-color: #ff5c7c;
+}
+nav .left li:nth-child(1) div::before {
+  content: '\e902';
+}
+nav .left li:nth-child(2) div {
+  background-color: #fcba2a;
+}
+nav .left li:nth-child(2) div::before {
+  content: '\e982';
+}
+nav .left li:nth-child(3) div {
+  background-color: #ff716d;
+}
+nav .left li:nth-child(3) div::before {
+  content: '\e99d';
+}
+nav .left li:nth-child(4) div {
+  background-color: #6dc781;
+}
+nav .left li:nth-child(4) div::before {
+  content: '\ea56';
+}
+nav .bar {
+  width: 1px;
+  height: 46px;
+  background-color: #e7e7e7;
+  margin: 15px 8px 0;
+}
+nav .middle {
+  width: 748px;
+  height: 68px;
+}
+nav .middle li {
+  float: left;
+  width: 61px;
+  height: 34px;
+  margin-right: 9px;
+}
+nav .middle li:nth-child(10n+8) {
+  width: 75px;
+}
+nav .middle li:nth-child(10n+9) {
+  width: 75px;
+}
+nav .middle li:nth-child(10n) {
+  width: 89px;
+  margin-right: 0px;
+}
+nav .middle li span {
+  float: left;
+  margin: 7px 0;
+}
+nav .middle li span:nth-child(1) {
+  font-size: 14px;
+}
+nav .middle li span:nth-child(2) {
+  margin-left: 3px;
+  margin-top: 12px;
+  width: 30px;
+  height: 12px;
+  text-align: center;
+  line-height: 12px;
+  background-color: #73c9e5;
+  color: #fff;
+  border-radius: 2px;
+}
+nav .right {
+  width: 218px;
+  height: 68px;
+}
+nav .right li {
+  float: left;
+  width: 57px;
+  height: 34px;
+}
+nav .right li:nth-child(3n) {
+  width: 90px;
+}
+nav .right li svg {
+  width: 25px;
+  height: 34px;
+}
+nav .right li span {
+  margin-left: 2px;
+  font-size: 14px;
+}
