@@ -116,7 +116,7 @@ img {
 }
 header {
   position: relative;
-  width: 1530px;
+  width: 1519px;
   height: 155px;
   background: url(../images/header_bg.png) no-repeat;
   background-size: 1530px 155px;
@@ -226,7 +226,7 @@ header .shortcut-container form button::after {
 }
 header .shortcut-container .info {
   height: 36px;
-  margin-left: 100px;
+  margin-left: 95px;
 }
 header .shortcut-container .info span {
   display: inline-block;
@@ -390,4 +390,178 @@ nav .right li svg {
 nav .right li span {
   margin-left: 2px;
   font-size: 14px;
+}
+@keyframes websafe {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+footer {
+  width: 1519px;
+  height: 432px;
+  padding: 20px 0;
+  background-color: #f6f9fa;
+}
+footer h3 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #999999;
+  margin-bottom: 20px;
+}
+footer .above {
+  display: flex;
+  height: 150px;
+}
+footer .above .left {
+  flex: 2;
+  margin-right: 40px;
+  border-right: 1px solid #eeeeee;
+}
+footer .above .left ul {
+  display: flex;
+  height: 110px;
+  flex-wrap: wrap;
+}
+footer .above .left ul li {
+  width: 170px;
+  height: 20px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+footer .above .middle {
+  flex: 3;
+  margin-right: 40px;
+  border-right: 1px solid #eeeeee;
+}
+footer .above .middle ul {
+  display: flex;
+  height: 110px;
+  flex-wrap: wrap;
+}
+footer .above .middle ul li {
+  width: 170px;
+  height: 20px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+footer .above .right {
+  flex: 1.25;
+  padding: 20px 0;
+}
+footer .above .right ul {
+  display: flex;
+  height: 110px;
+  flex-wrap: wrap;
+}
+footer .above .right ul li {
+  flex: 1;
+  height: 85px;
+  margin: auto 0;
+  font-size: 14px;
+}
+footer .above .right ul li div {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+}
+footer .above .right ul li div::before {
+  content: '';
+  font-family: 'iconmoon';
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+  margin: 0 11px;
+  color: #fff;
+}
+footer .above .right ul li div::before:hover {
+  color: #fff;
+}
+footer .above .right ul li:nth-child(1) div {
+  background-color: #585f69;
+}
+footer .above .right ul li:nth-child(1) div::before {
+  content: '\e9c7';
+}
+footer .above .right ul li:nth-child(2) div {
+  background-color: #fe596c;
+}
+footer .above .right ul li:nth-child(2) div::before {
+  content: '\ea9a';
+}
+footer .above .right ul li:nth-child(3) div {
+  background-color: #42c86b;
+}
+footer .above .right ul li:nth-child(3) div::before {
+  content: '\ea93';
+}
+footer .below {
+  height: 222px;
+  margin-top: 30px;
+}
+footer .below div {
+  float: left;
+}
+footer .below .left {
+  width: 100px;
+  height: 192px;
+}
+footer .below .left img {
+  width: 100px;
+}
+footer .below .left a {
+  display: inline-block;
+  position: relative;
+  width: 100px;
+  height: 40px;
+}
+footer .below .left a img {
+  position: absolute;
+}
+footer .below .left a img:nth-child(2) {
+  animation: websafe 4s ease infinite;
+  opacity: 1;
+}
+footer .below .right {
+  width: 1100px;
+  height: 222px;
+  padding-left: 20px;
+  color: #999999;
+}
+footer .below .right a {
+  color: #999999;
+}
+footer .below .right a:hover {
+  color: #00a1d6;
+}
+footer .below .right span {
+  float: left;
+  height: 24px;
+  margin-right: 15px;
+}
+footer .below .right p {
+  height: 24px;
+}
+footer .below .right p:nth-child(1) {
+  height: 72px;
+}
+footer .below .right i {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(../images/hz_icon.png);
+}
+footer .below .right .sprite2 {
+  width: 18px;
+  background-position: -42px 0;
+}
+footer .below .right .sprite3 {
+  background-position: -18px 0;
 }
