@@ -669,6 +669,10 @@ footer .below .right .sprite3 {
 .side-nav .side-list-wrap .side-list li:hover a::before {
   color: #fff;
 }
+.banner {
+  height: 242px;
+  margin-bottom: 40px;
+}
 .banner div {
   float: left;
 }
@@ -851,4 +855,312 @@ footer .below .right .sprite3 {
 }
 .banner .right .swiper-slide a:hover .mask p {
   display: block;
+}
+.floor {
+  height: 456px;
+  margin-bottom: 40px;
+}
+.floor .left {
+  float: left;
+  width: 854px;
+}
+.floor .left .hd {
+  height: 36px;
+  margin-bottom: 16px;
+}
+.floor .left .hd svg {
+  width: 36px;
+  height: 36px;
+  margin-right: 6px;
+}
+.floor .left .hd h3 {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #212121;
+}
+.floor .left .hd .info {
+  color: #505050;
+}
+.floor .left .hd .info a::before {
+  content: '\e9a9';
+  font-family: 'iconmoon';
+  margin-right: 5px;
+  color: red;
+}
+.floor .left .hd .more {
+  float: right;
+  height: 22px;
+  margin: 7px 0 7px 12px;
+  color: #505050;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+  transition: 0.3s ease;
+}
+.floor .left .hd .more a {
+  display: block;
+  margin: 0 10px;
+  width: 100%;
+  height: 100%;
+  line-height: 20px;
+}
+.floor .left .hd .more:hover {
+  background-color: #f4f4f4;
+}
+.floor .left .hd .more:hover a {
+  color: #505050;
+}
+.floor .left .hd .change {
+  float: right;
+  width: 72px;
+  height: 22px;
+  margin: 7px 0;
+  color: #505050;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+  transition: 0.3s ease;
+}
+.floor .left .hd .change a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 20px;
+}
+.floor .left .hd .change:hover {
+  background-color: #f4f4f4;
+}
+.floor .left .hd .change:hover a {
+  color: #505050;
+}
+.floor .left .bd {
+  height: 404px;
+}
+.floor .left .bd li {
+  float: left;
+  position: relative;
+  width: 206px;
+  height: 190px;
+  margin: 0 10px 20px 0;
+}
+.floor .left .bd li:nth-child(4n) {
+  margin-right: 0;
+}
+.floor .left .bd li img {
+  width: 206px;
+  height: 116px;
+}
+.floor .left .bd li .play {
+  position: absolute;
+  bottom: 84px;
+  right: 10px;
+  width: 28px;
+  height: 28px;
+  opacity: 0;
+  background-image: url(../images/play.png);
+  background-size: 28px 28px;
+  transition: 0.4s ease;
+}
+.floor .left .bd li .mask {
+  position: absolute;
+  bottom: 74px;
+  width: 100%;
+  height: 48px;
+  opacity: 1;
+  color: #fff;
+  font-size: 12px;
+  text-align: left;
+  line-height: 70px;
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
+  transition: 0.4s ease;
+}
+.floor .left .bd li .mask span::before {
+  content: '';
+  font-family: 'iconmoon';
+  display: inline-block;
+  margin: 0 5px 0 10px;
+  vertical-align: middle;
+}
+.floor .left .bd li .mask span:nth-child(1)::before {
+  content: '\e912';
+}
+.floor .left .bd li .mask span:nth-child(2)::before {
+  content: '\ea03';
+}
+.floor .left .bd li:hover .play {
+  opacity: 1;
+}
+.floor .left .bd li:hover .mask {
+  opacity: 0;
+}
+.floor .left .bd li h3 {
+  display: block;
+  margin: 10px 0 8px;
+  padding-right: 14px;
+  font-size: 14px;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  /* autoprefixer      : ignore next */
+  -webkit-box-orient: vertical;
+}
+.floor .left .bd li .up {
+  color: #999999;
+  transition: 0.3s;
+}
+.floor .left .bd li .up:hover {
+  color: #00aae2;
+}
+.floor .right {
+  float: right;
+  width: 320px;
+}
+.floor .right .hd {
+  height: 52px;
+  padding: 0 16px 16px 0;
+}
+.floor .right .hd h3 {
+  float: left;
+  font-size: 20px;
+  color: #212121;
+  font-weight: 400;
+}
+.floor .right .hd .more {
+  float: right;
+  height: 22px;
+  margin: 7px 0 7px 12px;
+  color: #505050;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+  transition: 0.3s ease;
+}
+.floor .right .hd .more a {
+  display: block;
+  margin: 0 10px;
+  width: 100%;
+  height: 100%;
+  line-height: 20px;
+}
+.floor .right .hd .more:hover {
+  background-color: #f4f4f4;
+}
+.floor .right .hd .more:hover a {
+  color: #505050;
+}
+.floor .right .bd {
+  height: 404px;
+}
+.floor .right .bd li {
+  display: block;
+  width: 320px;
+  height: 20px;
+  margin-bottom: 18px;
+}
+.floor .right .bd li span {
+  float: left;
+  width: 18px;
+  height: 18px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 18px;
+  color: #999;
+}
+.floor .right .bd li:nth-of-type(1) {
+  height: 64px;
+}
+.floor .right .bd li:nth-of-type(1) a:nth-of-type(1) {
+  position: relative;
+  float: left;
+  width: 112px;
+  height: 63px;
+}
+.floor .right .bd li:nth-of-type(1) a:nth-of-type(1) img {
+  width: 112px;
+  height: 63px;
+}
+.floor .right .bd li:nth-of-type(1) a:nth-of-type(1) .play {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  width: 28px;
+  height: 28px;
+  opacity: 0;
+  background-image: url(../images/play.png);
+  background-size: 28px 28px;
+  transition: 0.4s ease;
+}
+.floor .right .bd li:nth-of-type(1) a:nth-of-type(1):hover .play {
+  opacity: 1;
+}
+.floor .right .bd li:nth-of-type(1) a:nth-of-type(2) {
+  float: left;
+  width: 166px;
+  height: 40px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.floor .right .bd li:nth-of-type(1) div {
+  float: left;
+  margin-left: 10px;
+}
+.floor .right .bd li:nth-of-type(-n+3) span {
+  color: #fff;
+  background-color: #00a1d6;
+}
+.floor .right .bd li a {
+  display: inline-block;
+  width: 290px;
+  height: 20px;
+  margin-left: 10px;
+  font-size: 14px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.recom {
+  height: 244px;
+}
+.recom .left .bd {
+  height: 192px;
+}
+.recom .left .bd li .mask {
+  padding-right: 10px;
+  text-align: right;
+}
+.recom .right .hd div {
+  width: 320px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid #e7e7e7;
+  border-radius: 2px;
+  background-color: #f4f4f4;
+}
+.recom .right .bd {
+  height: 192px;
+}
+.recom .right .bd img {
+  width: 100%;
+  height: 100%;
+}
+.ad img {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  float: left;
+  transform: translateX(160px);
+}
+.storey .live {
+  margin-top: 105px;
+  background-color: skyblue;
 }
